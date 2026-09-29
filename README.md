@@ -468,172 +468,33 @@ It wasn't that hard, was it?
 > 📌 **Below are all screenshots in sequential order.** Each image is a step-by-step walkthrough — follow them top to bottom to fully reproduce this machine from recon to root.
 
 ---
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_19_37_38" src="https://github.com/user-attachments/assets/2647e073-617b-4960-b780-0f6fb8fda504" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_19_40_22" src="https://github.com/user-attachments/assets/226d7561-95d5-4844-bed1-2fa0ecb5962d" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_19_51_18" src="https://github.com/user-attachments/assets/4adcafe1-ecbb-49bd-bf4f-81f3c33aec79" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_19_57_40" src="https://github.com/user-attachments/assets/f40fd069-f027-4576-b084-e7d037383b78" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_19_58_49" src="https://github.com/user-attachments/assets/5efa21f9-669e-4142-b395-e022d94f94ea" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_20_08_39" src="https://github.com/user-attachments/assets/2cb7531d-3f68-4415-afb5-b4ba0e3b11b1" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_20_11_16" src="https://github.com/user-attachments/assets/47307e8d-e039-4388-b40a-4e363c2aee2a" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_02_35" src="https://github.com/user-attachments/assets/50894d15-ae26-4932-9540-7c190967cee4" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_19_43" src="https://github.com/user-attachments/assets/bbf301a8-c890-47c4-b951-71e2af6a60d0" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_22_31" src="https://github.com/user-attachments/assets/3d21b5e4-b54a-4f5b-99a8-685933e945c2" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_23_33" src="https://github.com/user-attachments/assets/5324e1b2-84d7-49ad-a9f9-11f1fa8ea4e1" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_25_42" src="https://github.com/user-attachments/assets/5f217d50-c0b9-492d-8bda-db9800685beb" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_26_48" src="https://github.com/user-attachments/assets/8c1708b8-2808-4056-acff-009f7e6889c2" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_27_42" src="https://github.com/user-attachments/assets/6b89a839-15a5-42d5-8259-46fc87120a82" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_30_32" src="https://github.com/user-attachments/assets/7352156b-edf9-40fc-8248-000f0be07303" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_31_46" src="https://github.com/user-attachments/assets/b4db4d39-96bd-429e-8805-0af9e8afb21d" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_38_26" src="https://github.com/user-attachments/assets/0eea9e7d-159b-4674-a8b5-850cc12428f0" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_39_43" src="https://github.com/user-attachments/assets/e37b6169-77f1-495f-a710-69a3d91cb2f0" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_42_32" src="https://github.com/user-attachments/assets/7e923ffc-7203-432d-bc9c-3a2a414bfd36" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_44_23" src="https://github.com/user-attachments/assets/e83045ac-09f8-4cc0-898b-5417f1e580bb" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_47_20" src="https://github.com/user-attachments/assets/1640168e-ff3d-4e15-aa0c-3f4ad55039d3" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_56_28" src="https://github.com/user-attachments/assets/1a913755-f2d1-4513-83d5-54ee38995785" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_58_36" src="https://github.com/user-attachments/assets/ab2c30e0-5792-46fe-ab0b-fd81bba4aa7f" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_21_59_48" src="https://github.com/user-attachments/assets/d67ea585-050e-45eb-8cef-015cef8dc8dd" />
+<img width="1920" height="1080" alt="Screenshot_2026-09-29_22_00_32" src="https://github.com/user-attachments/assets/f1d139aa-c278-4b4c-8f8e-23a4b9fb4669" />
 
-<div align="center">
 
-### 🔍 Step 1 — Reconnaissance
-
-<!-- 📸 IMAGE 1: nmap full scan showing FTP 21, HTTP 80, Webmin 10000, SSH 55007 -->
-<img src="./images/01-nmap-scan.png" alt="Step 1a — Nmap Full Scan" width="850"/>
-
-*Step 1a — `nmap -sC -sV -p-` reveals FTP 21, HTTP 80, Webmin 10000, SSH 55007*
-
-</div>
-
----
-
-<div align="center">
-
-### 📂 Step 2 — Anonymous FTP Enumeration
-
-<!-- 📸 IMAGE 2: anonymous FTP login + ls -la showing .info.txt -->
-<img src="./images/02-ftp-anon-login.png" alt="Step 2a — Anonymous FTP Login" width="850"/>
-
-*Step 2a — Anonymous FTP login; `ls -la` reveals `.info.txt`*
-
-<br>
-
-<!-- 📸 IMAGE 3: cat .info.txt showing ROT13 ciphertext -->
-<img src="./images/03-info-txt-rot13.png" alt="Step 2b — ROT13 Ciphertext" width="850"/>
-
-*Step 2b — `.info.txt` contains ROT13-encoded hint*
-
-<br>
-
-<!-- 📸 IMAGE 4: rot13.com decode result -->
-<img src="./images/04-rot13-decoded.png" alt="Step 2c — ROT13 Decoded" width="850"/>
-
-*Step 2c — Decoded hint: "Enumeration is the key!"*
-
-</div>
-
----
-
-<div align="center">
-
-### 🌐 Step 3 — Web Directory Enumeration
-
-<!-- 📸 IMAGE 5: feroxbuster output discovering /joomla/ -->
-<img src="./images/05-feroxbuster-joomla.png" alt="Step 3a — Feroxbuster Discovery" width="850"/>
-
-*Step 3a — `feroxbuster` discovers the hidden `/joomla/` install*
-
-<br>
-
-<!-- 📸 IMAGE 6: feroxbuster on /joomla/ showing _test/, _archive/, etc. -->
-<img src="./images/06-joomla-subdirs.png" alt="Step 3b — Joomla Subdirectories" width="850"/>
-
-*Step 3b — Enumerating `/joomla/` reveals `_test/`, `_archive/`, `_database/`, `_files/`, `~www/`*
-
-<br>
-
-<!-- 📸 IMAGE 7: browser showing sar2html web app at /joomla/_test/ -->
-<img src="./images/07-sar2html-app.png" alt="Step 3c — Sar2HTML Web App" width="850"/>
-
-*Step 3c — Visiting `/joomla/_test/` reveals the Sar2HTML web app*
-
-</div>
-
----
-
-<div align="center">
-
-### 💥 Step 4 — Sar2HTML RCE Exploitation
-
-<!-- 📸 IMAGE 8: browser URL with ?plot=;ls showing command output -->
-<img src="./images/08-sar2html-rce-ls.png" alt="Step 4a — RCE Confirmed with ls" width="850"/>
-
-*Step 4a — `?plot=;ls` populates dropdown — RCE confirmed*
-
-<br>
-
-<!-- 📸 IMAGE 9: cat log.txt output showing leaked SSH credentials -->
-<img src="./images/09-log-txt-creds.png" alt="Step 4b — Credentials Leaked in log.txt" width="850"/>
-
-*Step 4b — `cat log.txt` leaks `basterd : superduperp@$$`*
-
-</div>
-
----
-
-<div align="center">
-
-### 🔐 Step 5 — SSH Access & Lateral Movement
-
-<!-- 📸 IMAGE 10: ssh basterd on port 55007 successful login -->
-<img src="./images/10-ssh-basterd.png" alt="Step 5a — SSH as basterd" width="850"/>
-
-*Step 5a — SSH login on port 55007 as `basterd`*
-
-<br>
-
-<!-- 📸 IMAGE 11: cat backup.sh showing hardcoded stoner creds -->
-<img src="./images/11-backup-sh-creds.png" alt="Step 5b — backup.sh Leaks stoner Creds" width="850"/>
-
-*Step 5b — `backup.sh` leaks hardcoded `stoner` password*
-
-<br>
-
-<!-- 📸 IMAGE 12: su stoner success + cat .secret -->
-<img src="./images/12-su-stoner.png" alt="Step 5c — su stoner + .secret" width="850"/>
-
-*Step 5c — `su stoner` succeeds; `.secret` note found*
-
-</div>
-
----
-
-<div align="center">
-
-### 🛡️ Step 6 — Privilege Escalation via SUID find
-
-<!-- 📸 IMAGE 13: find / -perm /4000 2>/dev/null showing /usr/bin/find -->
-<img src="./images/13-suid-enum.png" alt="Step 6a — SUID Enumeration" width="850"/>
-
-*Step 6a — `find / -perm /4000` reveals SUID `/usr/bin/find`*
-
-<br>
-
-<!-- 📸 IMAGE 14: exploit command chmod 777 /root via SUID find -->
-<img src="./images/14-suid-find-exploit.png" alt="Step 6b — SUID find Exploit" width="850"/>
-
-*Step 6b — `/usr/bin/find . -exec chmod 777 /root \;` grants full access*
-
-<br>
-
-<!-- 📸 IMAGE 15: cd /root + cat root.txt -->
-<img src="./images/15-root-flag.png" alt="Step 6c — Root Flag Captured" width="850"/>
-
-*Step 6c — `cd /root && cat root.txt` — root flag captured 🎯*
-
-</div>
-
----
-
-<div align="center">
-
-### 🏆 Step 7 — Root Proof
-
-<!-- 📸 IMAGE 16: whoami showing root -->
-<img src="./images/16-whoami-root.png" alt="Step 7a — whoami = root" width="850"/>
-
-*Step 7a — `whoami` confirms `root`*
-
-<br>
-
-<!-- 📸 IMAGE 17: id output showing uid=0(root) -->
-<img src="./images/17-id-root.png" alt="Step 7b — id = uid=0(root)" width="850"/>
-
-*Step 7b — `id` returns `uid=0(root) gid=0(root)`*
-
-<br>
-
-<!-- 📸 IMAGE 18: 100% room completion + 300 points screenshot -->
-<img src="./images/18-room-complete.png" alt="Step 7c — Room Completed 100%" width="850"/>
-
-*Step 7c — Room completed — 100% ✅ | 300 Points | 🔥 14-Day Streak*
-
-</div>
 
 ---
 
